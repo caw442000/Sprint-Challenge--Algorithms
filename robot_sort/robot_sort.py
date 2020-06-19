@@ -143,6 +143,86 @@ class SortingRobot:
             # move all the way left and start again
                 self.move_left()
 
+    # def sort(self):
+    #     """
+    #     Sort the robot's list.
+    #     """
+    #     # Bubble Sort swapping
+        
+    #     # use light on to indicate sorting still happening
+    #     self.set_light_on()
+
+    #     # start while loop 
+    #     while self.light_is_on():
+    #         # turn light off as this while turn on if a swap happens
+    #         self.set_light_off()
+
+    #         # iterate through steps
+    #         # use self.can_move_right
+    #         # move right loop until you can't
+    #         while self.can_move_right():
+    #             # pickup item leaves none value in it's place
+    #             self.swap_item()
+    #             # move right
+    #             self.move_right()
+    #             # compare item
+    #             # if item is greater than 
+    #             if self.compare_item() == 1:
+    #                 # swap item
+    #                 self.swap_item()
+    #                 # move left
+    #                 self.move_left()
+    #                 # drop item (swap item)
+    #                 self.swap_item()
+    #                 # move right
+    #                 self.move_right()
+    #                 # turn light on because swap was made
+    #                 self.set_light_on()
+
+    #             # else not greater so no put item back in it's place
+    #             else:
+    #                 # move left
+    #                 self.move_left()
+    #                 # swap item
+    #                 self.swap_item()  
+    #                 # move right 
+    #                 self.move_right()
+
+
+    #         # if light is still on after while loop then sorting happened 
+    #         while self.can_move_left():
+    #         # pickup item leaves none value in it's place
+    #             self.swap_item()
+    #             # move right
+    #             self.move_left()
+    #             # compare item
+    #             # if item is lesser than 
+    #             if self.compare_item() == -1:
+    #                 # swap item
+    #                 self.swap_item()
+    #                 # move right
+    #                 self.move_right()
+    #                 # drop item (swap item)
+    #                 self.swap_item()
+    #                 # move left
+    #                 self.move_left()
+    #                 # turn light on because swap was made
+    #                 self.set_light_on()
+
+    #             # else not lesser so no put item back in it's place
+    #             else:
+    #                 # move right
+    #                 self.move_right()
+    #                 # swap item
+    #                 self.swap_item()  
+    #                 # move left 
+    #                 self.move_left()
+            
+    #     # # if light is still on after while loop then sorting happened 
+    #     #     while self.light_is_on() and self.can_move_left():
+    #     #     # move all the way left and start again
+    #     #         self.move_left()
+
         
 
 
