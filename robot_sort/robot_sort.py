@@ -252,7 +252,6 @@ class SortingRobot:
                         self.move_right()
                     break
 
-        # move all the way right 
 
 
 if __name__ == "__main__":
