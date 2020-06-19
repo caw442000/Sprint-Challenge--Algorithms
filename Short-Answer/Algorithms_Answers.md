@@ -14,3 +14,20 @@ c) O(n): assuming bunnies is the n value with this being a recursive call it wil
 
 
 
+Binary search: O(log n) I would pick the middle floor then evaluate the drop. 
+
+
+If it breaks it will know that any floor above
+will also break the egg essentially wiping out the need to look at those floors.  
+
+this would become the top floor and i would start over with picking the middle floor
+
+
+If it doesn't break it will know that any floor below 
+will also not break the egg essentially wiping out the need to look at those floors
+
+this would become the bottom floor and i would start over with picking the middle floor
+
+
+eventually the middle floor will be the answer
+
